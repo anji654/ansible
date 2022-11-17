@@ -14,7 +14,18 @@
     apt:
      name: apache2
      state: present
-
+  - name: i want to install java 8
+    apt:
+     name: openjdk-8-jdk 
+     state: present
+  - name: i want to install tree
+    apt: 
+     name: tree
+     state: present
+  - name: i want to install  git 
+    apt: 
+     name: git
+     state: present
 
     
     
